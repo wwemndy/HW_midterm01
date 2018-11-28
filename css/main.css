@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /*font-family: Ubuntu;
+    /*設定一個元素樣式為 box-sizing: border-box;
+    這個元素的內距和邊框將不會增加元素本身的寬度*/
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+:link,:visited{
+    text-decoration: none;
+}
+.flex_center{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+.about_text{
+    width: 250px;
+    margin: 30px 0px 30px 100px;
+}
+
+.btn_cnt{
+    border-radius: 3.125rem !important;
+    padding: 10px 30px;
+    margin-top: 0px;
+    font-size: 20px;
+    background: transparent;
+    border-width: 0.0625rem;
+    border-style: solid;
+}
+.btn_black{
+    color: #000;
+    border-color: #000;
+}
+.btn_white{
+    color: #fff;
+    border-color: #fff;
+}
+.h1_bottom{
+    margin-bottom: 30px;
+}
+
+h1{
+    font-size: 34px;
+}
+h2{
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+  body{
+    display: block;
+    background-color: #ffffff;
+  }
+  
+  main{
+    width:1280px;
+    /*height:1960px;*/
+    margin: 0 auto;
+  }
+
+  header div{
+      height: 600px;
+      background-image: url(../img/img_summer.jpg)
+  }
+
+  #Works{
+      height: 355px;
+      /*background-color: #dddddd;*/
+      }
+#Works div{
+    margin: 0 50px;
+}
+#Works a{
+    margin: 0 10px;
+}
+  #Gallery{
+    height: 365px;
+    background-image: url(../img/img_spring.jpg)
+}
+#Gallery h1{
+    color: #fff;
+}
+  #About{
+    height: 600px;
+  }
+  #img_me{
+      width: 150px;
+      height: 150px;
+  }
+  #About h1{
+      margin: 100px 0px 80px 0px;
+  }
+  #About>div{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  #Contact{
+      margin-top: 50px;
+  }
+#Contact p{
+    margin-right: 50px;
+}
+  #btn_link img{
+      width: 50px;
+      height: 50px;
+      margin-right: 10px;
+  }
+  footer{
+      font-size: 12px; 
+      background-color:#dddddd;
+      height: 50px;
+  }
